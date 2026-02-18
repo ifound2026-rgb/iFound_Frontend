@@ -1,3 +1,5 @@
+import { getLostItems, getFoundItems, reportLostItem } from '../../api';
+
 const handleSubmit = async (e: React.FormEvent) => {
   e.preventDefault();
   console.log("Submit clicked"); // <- Add this
